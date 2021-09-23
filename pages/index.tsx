@@ -4,8 +4,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Seldom.net</title>
-        <meta name="description" content="Seldom.net" />
+        <title>
+          Seldom | Empowering Artists and Collectors #NFT #blockchain
+        </title>
+        <meta
+          name="description"
+          content="Seldom | Empowering Artists and Collectors #NFT #blockchain"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex bg-red min-h-screen justify-center place-items-center flex-col">
