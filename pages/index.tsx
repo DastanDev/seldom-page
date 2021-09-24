@@ -17,7 +17,7 @@ export default function Home() {
         <div className="scale-50">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="mx-auto w-11/12 max-w-2xl"
+            className="mx-auto w-11/12 max-w-md md:-mb-11 -mb-16"
             width="1379.514"
             height="157.736"
             viewBox="0 0 1379.514 157.736"
@@ -71,7 +71,7 @@ export default function Home() {
           target="_blank"
           className="retro text-center"
         >
-          JOIN
+          <div className="px-10">Join Now</div>
         </a>
       </div>
     </div>
