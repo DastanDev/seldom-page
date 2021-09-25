@@ -1,8 +1,8 @@
 module.exports = {
   apps: [
     {
-      name: "app",
-      script: "./app.js",
+      name: "seldom-page",
+      script: "npm run build && npm start",
       env: {
         NODE_ENV: "development",
       },
