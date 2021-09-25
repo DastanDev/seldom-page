@@ -2,7 +2,8 @@ module.exports = {
   apps: [
     {
       name: "seldom-page",
-      script: "npm run build && npm start",
+      script:
+        "node node_modules/next/dist/bin/next build && node node_modules/next/dist/bin/next start",
       env: {
         NODE_ENV: "development",
       },

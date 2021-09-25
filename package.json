@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node node_modules/next/dist/bin/next build && node node_modules/next/dist/bin/next start",
     "lint": "next lint",
-    "out": "next export" 
+    "out": "next export"
   },
   "dependencies": {
     "@types/react": "^17.0.24",
